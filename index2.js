@@ -29,7 +29,28 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("hey jamal saifi")
+    // console.log("hey jamal saifi")
 }
 myFunction()
-console.log(typeof myFunction)
+// console.log(typeof myFunction)
+
+//stach (Primitive), Heap (Non Primitive) Memory type
+
+// stack always return only copy 
+
+let youtubename = "jamal saifi"
+let anothername = youtubename
+anothername = "azhar saifi"
+// console.log(anothername)
+// console.log(youtubename)
+
+// Heap always return Reference
+
+let userOne = {
+    email : "jamalsaifi@google.com",
+    UPI : "saifijamal.upi"
+}
+
+let userTwo = userOne
+userOne.email = "user@jamal.com"
+console.log(userTwo.email)
