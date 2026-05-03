@@ -17,3 +17,28 @@ else if (temperature <= 30 && temperature >= 28){
 } else {
     console.log("you shoulde go out side")
 }
+
+const month = "may"
+switch (month) {
+    case "jan":
+        console.log("january")
+        break;
+    case "feb":
+        console.log("feb")
+        break;
+    case "march":
+        console.log("march")
+        break;
+    case "april":
+        console.log("april")
+        break;
+    case "may":
+        console.log("may")
+        break;
+    case "june":
+        console.log("june")
+        break;
+
+    default:
+        break;
+}
